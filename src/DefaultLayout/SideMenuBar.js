@@ -85,23 +85,6 @@ const SideMenuBar = props => {
                         </ul>
                     </div>
                 </li>
-                <li className="nav-item sidebar-actions">
-              <span className="nav-link">
-                <div className="border-bottom">
-                  <h6 className="font-weight-normal mb-3">Projects</h6>
-                </div>
-                <button className="btn btn-block btn-lg btn-gradient-primary mt-4">+ Add a project</button>
-                <div className="mt-4">
-                  <div className="border-bottom">
-                    <p className="text-secondary">Categories</p>
-                  </div>
-                  <ul className="gradient-bullet-list mt-4">
-                    <li>Free</li>
-                    <li>Pro</li>
-                  </ul>
-                </div>
-              </span>
-                </li>
             </ul>
         </nav>
     )

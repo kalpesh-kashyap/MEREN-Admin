@@ -1,8 +1,10 @@
 import React, {Component} from 'react';
+import {Redirect, Route, Switch} from 'react-router-dom';
+import routes from '../routes';
 import Header from './Header';
 import SideMenuBar from './SideMenuBar';
 import Footer from './Footer';
-import Dashboard from '../components/Dashboard/Dashboard';
+
 // const Header = React.lazy(() => import('./Header'));
 // const SideMenuBar = React.lazy(() => import('./SideMenuBar'));
 // const Footer = React.lazy(() => import('./Footer'));
@@ -17,7 +19,20 @@ class DefaultLayout extends Component {
                     <SideMenuBar/>
                     <div className="main-panel">
                         <div className="content-wrapper">
-                            <Dashboard/>
+                            <Switch>
+                                {
+                                    routes.map((route, id) => {
+                                        return route.component ? (
+                                            <Route key={id}
+                                                   path={route.path}
+                                                   exact={route.exact}
+                                                   name={route.name}
+                                                   render={props => <route.component {...props}/>}/>
+                                        ) : null
+                                    })
+                                }
+                                <Redirect from="/" to="/dashboard"/>
+                            </Switch>
                             <Footer/>
                         </div>
                     </div>
