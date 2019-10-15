@@ -34,7 +34,7 @@ class Dashboard extends Component {
                     <div className="col-md-4 stretch-card grid-margin">
                         <div className="card bg-gradient-danger card-img-holder text-white">
                             <div className="card-body">
-                                <img src="/public/assets/images/dashboard/circle.svg" className="card-img-absolute"
+                                <img src={require("../../assets/images/dashboard/circle.svg")} className="card-img-absolute"
                                      alt="circle-image"/>
                                 <h4 className="font-weight-normal mb-3">Weekly Sales <i
                                     className="mdi mdi-chart-line mdi-24px float-right"/>
@@ -47,7 +47,7 @@ class Dashboard extends Component {
                     <div className="col-md-4 stretch-card grid-margin">
                         <div className="card bg-gradient-info card-img-holder text-white">
                             <div className="card-body">
-                                <img src="/public/assets/images/dashboard/circle.svg" className="card-img-absolute"
+                                <img src={require("../../assets/images/dashboard/circle.svg")} className="card-img-absolute"
                                      alt="circle-image"/>
                                 <h4 className="font-weight-normal mb-3">Weekly Orders <i
                                     className="mdi mdi-bookmark-outline mdi-24px float-right"/>
@@ -60,7 +60,7 @@ class Dashboard extends Component {
                     <div className="col-md-4 stretch-card grid-margin">
                         <div className="card bg-gradient-success card-img-holder text-white">
                             <div className="card-body">
-                                <img src="/public/assets/images/dashboard/circle.svg" className="card-img-absolute"
+                                <img src={require("../../assets/images/dashboard/circle.svg")} className="card-img-absolute"
                                      alt="circle-image"/>
                                 <h4 className="font-weight-normal mb-3">Visitors Online <i
                                     className="mdi mdi-diamond mdi-24px float-right"/>
@@ -114,7 +114,7 @@ class Dashboard extends Component {
                                         <tbody>
                                         <tr>
                                             <td>
-                                                <img src="/public/assets/images/faces/face1.jpg" className="mr-2"
+                                                <img src={require("../../assets/images/faces/face1.jpg")} className="mr-2"
                                                      alt="image"/> David Grey
                                             </td>
                                             <td> Fund is not recieved</td>
@@ -126,7 +126,7 @@ class Dashboard extends Component {
                                         </tr>
                                         <tr>
                                             <td>
-                                                <img src="/public/assets/images/faces/face2.jpg" className="mr-2"
+                                                <img src={require("../../assets/images/faces/face2.jpg")} className="mr-2"
                                                      alt="image"/> Stella Johnson
                                             </td>
                                             <td> High loading time</td>
@@ -138,7 +138,7 @@ class Dashboard extends Component {
                                         </tr>
                                         <tr>
                                             <td>
-                                                <img src="/public/assets/images/faces/face3.jpg" className="mr-2"
+                                                <img src={require("../../assets/images/faces/face3.jpg")} className="mr-2"
                                                      alt="image"/> Marina Michel
                                             </td>
                                             <td> Website down for one week</td>
@@ -150,7 +150,7 @@ class Dashboard extends Component {
                                         </tr>
                                         <tr>
                                             <td>
-                                                <img src="/public/assets/images/faces/face4.jpg" className="mr-2"
+                                                <img src={require("../../assets/images/faces/face4.jpg")} className="mr-2"
                                                      alt="image"/> John Doe
                                             </td>
                                             <td> Loosing control on server</td>
@@ -184,20 +184,20 @@ class Dashboard extends Component {
                                 </div>
                                 <div className="row mt-3">
                                     <div className="col-6 pr-1">
-                                        <img src="/public/assets/images/dashboard/img_1.jpg"
+                                        <img src={require("../../assets/images/dashboard/img_1.jpg")}
                                              className="mb-2 mw-100 w-100 rounded" alt="image"/>
-                                        <img src="/public/assets/images/dashboard/img_4.jpg"
+                                        <img src={require("../../assets/images/dashboard/img_4.jpg")}
                                              className="mw-100 w-100 rounded" alt="image"/>
                                     </div>
                                     <div className="col-6 pl-1">
-                                        <img src="/public/assets/images/dashboard/img_2.jpg"
+                                        <img src={require("../../assets/images/dashboard/img_2.jpg")}
                                              className="mb-2 mw-100 w-100 rounded" alt="image"/>
-                                        <img src="/public/assets/images/dashboard/img_3.jpg"
+                                        <img src={require("../../assets/images/dashboard/img_3.jpg")}
                                              className="mw-100 w-100 rounded" alt="image"/>
                                     </div>
                                 </div>
                                 <div className="d-flex mt-5 align-items-top">
-                                    <img src="/public/assets/images/faces/face3.jpg" className="img-sm rounded-circle mr-3"
+                                    <img src={require("../../assets/images/faces/face3.jpg")} className="img-sm rounded-circle mr-3"
                                          alt="image"/>
                                     <div className="mb-0 flex-grow">
                                         <h5 className="mr-2 mb-2">School Website - Authentication Module.</h5>

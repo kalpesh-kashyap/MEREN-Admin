@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import '../public/assets/vendors/mdi/css/materialdesignicons.min.css';
-import '../public/assets/vendors/css/vendor.bundle.base.css';
-import '../public/assets/css/style.css';
+import './assets/vendors/mdi/css/materialdesignicons.min.css';
+import './assets/vendors/css/vendor.bundle.base.css';
+import './assets/css/style.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 

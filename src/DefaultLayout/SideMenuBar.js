@@ -7,7 +7,7 @@ const SideMenuBar = props => {
                 <li className="nav-item nav-profile">
                     <a href="#" className="nav-link">
                         <div className="nav-profile-image">
-                            <img src="/public/assets/images/faces/face1.jpg" alt="profile"/>
+                            <img src={require("../assets/images/faces/face1.jpg")} alt="profile"/>
                             <span className="login-status online"/>
                         </div>
                         <div className="nav-profile-text d-flex flex-column">

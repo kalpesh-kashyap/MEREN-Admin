@@ -4,8 +4,8 @@ const Header = prop => {
     return (
         <nav className="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
             <div className="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-                <a className="navbar-brand brand-logo" href="index.html"><img src="/public/assets/images/logo.svg" alt="logo"/></a>
-                <a className="navbar-brand brand-logo-mini" href="index.html"><img src="/public/assets/images/logo-mini.svg"
+                <a className="navbar-brand brand-logo" href="index.html"><img src={require("../assets/images/logo.svg")} alt="logo"/></a>
+                <a className="navbar-brand brand-logo-mini" href="index.html"><img src={require("../assets/images/logo-mini.svg")}
                                                                                    alt="logo"/></a>
             </div>
             <div className="navbar-menu-wrapper d-flex align-items-stretch">
@@ -29,7 +29,7 @@ const Header = prop => {
                         <a className="nav-link dropdown-toggle" id="profileDropdown" href="#" data-toggle="dropdown"
                            aria-expanded="false">
                             <div className="nav-profile-img">
-                                <img src="/public/assets/images/faces/face1.jpg" alt="image"/>
+                                <img src={require("../assets/images/faces/face1.jpg")} alt="image"/>
                                 <span className="availability-status online"/>
                             </div>
                             <div className="nav-profile-text">
@@ -61,7 +61,7 @@ const Header = prop => {
                             <div className="dropdown-divider"/>
                             <a className="dropdown-item preview-item">
                                 <div className="preview-thumbnail">
-                                    <img src="/public/assets/images/faces/face4.jpg" alt="image" className="profile-pic"/>
+                                    <img src={require("../assets/images/faces/face4.jpg")} alt="image" className="profile-pic"/>
                                 </div>
                                 <div
                                     className="preview-item-content d-flex align-items-start flex-column justify-content-center">
@@ -73,7 +73,7 @@ const Header = prop => {
                             <div className="dropdown-divider"/>
                             <a className="dropdown-item preview-item">
                                 <div className="preview-thumbnail">
-                                    <img src="/public/assets/images/faces/face2.jpg" alt="image" className="profile-pic"/>
+                                    <img src={require("../assets/images/faces/face2.jpg")} alt="image" className="profile-pic"/>
                                 </div>
                                 <div
                                     className="preview-item-content d-flex align-items-start flex-column justify-content-center">
@@ -85,7 +85,7 @@ const Header = prop => {
                             <div className="dropdown-divider"/>
                             <a className="dropdown-item preview-item">
                                 <div className="preview-thumbnail">
-                                    <img src="/public/assets/images/faces/face3.jpg" alt="image" className="profile-pic"/>
+                                    <img src={require("../assets/images/faces/face3.jpg")} alt="image" className="profile-pic"/>
                                 </div>
                                 <div
                                     className="preview-item-content d-flex align-items-start flex-column justify-content-center">
