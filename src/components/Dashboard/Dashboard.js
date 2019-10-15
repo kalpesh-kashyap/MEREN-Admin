@@ -4,18 +4,6 @@ class Dashboard extends Component {
     render() {
         return (
             <div>
-                <div className="row" id="proBanner">
-                    <div className="col-12">
-                <span className="d-flex align-items-center purchase-popup">
-                  <p>Like what you see? Check out our premium version for more.</p>
-                  <a href="https://github.com/BootstrapDash/PurpleAdmin-Free-Admin-Template" target="_blank"
-                     className="btn ml-auto download-button">Download Free Version</a>
-                  <a href="https://www.bootstrapdash.com/product/purple-bootstrap-4-admin-template/" target="_blank"
-                     className="btn purchase-button">Upgrade To Pro</a>
-                  <i className="mdi mdi-close" id="bannerClose"/>
-                </span>
-                    </div>
-                </div>
                 <div className="page-header">
                     <h3 className="page-title">
                 <span className="page-title-icon bg-gradient-primary text-white mr-2">

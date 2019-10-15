@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
 const SideMenuBar = props => {
     return (
@@ -17,11 +18,17 @@ const SideMenuBar = props => {
                         <i className="mdi mdi-bookmark-check text-success nav-profile-badge"/>
                     </a>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item active">
                     <a className="nav-link" href="index.html">
                         <span className="menu-title">Dashboard</span>
                         <i className="mdi mdi-home menu-icon"/>
                     </a>
+                </li>
+                <li className="nav-item">
+                    <Link to="/login" className="nav-link">
+                        <span className="menu-title">Login</span>
+                        <i className="mdi mdi-home menu-icon"/>
+                    </Link>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false"
@@ -64,8 +71,7 @@ const SideMenuBar = props => {
                     </a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" data-toggle="collapse" href="#general-pages" aria-expanded="false"
-                       aria-controls="general-pages">
+                    <a className="nav-link collapse" href="#" >
                         <span className="menu-title">Sample Pages</span>
                         <i className="menu-arrow"/>
                         <i className="mdi mdi-medical-bag menu-icon"/>
