@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Link} from "react-router-dom";
 
 class Login extends Component {
     render() {
@@ -9,7 +10,7 @@ class Login extends Component {
                         <div className="col-lg-4 mx-auto">
                             <div className="auth-form-light text-left p-5">
                                 <div className="brand-logo">
-                                    <img src={require("../../assets/images/logo.svg")}/>
+                                    <Link to="/"><img src={require("../../assets/images/logo.svg")} alt="logo"/></Link>
                                 </div>
                                 <h4>Hello! let's get started</h4>
                                 <h6 className="font-weight-light">Sign in to continue.</h6>
@@ -24,7 +25,7 @@ class Login extends Component {
                                     </div>
                                     <div className="mt-3">
                                         <a className="btn btn-block btn-gradient-primary btn-lg font-weight-medium auth-form-btn"
-                                           href="../../index.html">SIGN IN</a>
+                                           href="#">SIGN IN</a>
                                     </div>
                                     <div className="my-2 d-flex justify-content-between align-items-center">
                                         <div className="form-check">
@@ -33,14 +34,6 @@ class Login extends Component {
                                             </label>
                                         </div>
                                         <a href="#" className="auth-link text-black">Forgot password?</a>
-                                    </div>
-                                    <div className="mb-2">
-                                        <button type="button" className="btn btn-block btn-facebook auth-form-btn">
-                                            <i className="mdi mdi-facebook mr-2"/>Connect using facebook
-                                        </button>
-                                    </div>
-                                    <div className="text-center mt-4 font-weight-light"> Don't have an account? <a
-                                        href="register.html" className="text-primary">Create</a>
                                     </div>
                                 </form>
                             </div>
