@@ -19,10 +19,10 @@ const SideMenuBar = props => {
                     </a>
                 </li>
                 <li className="nav-item">{/*active*/}
-                    <a className="nav-link" href="index.html">
+                    <Link to="/dashboard" className="nav-link">
                         <span className="menu-title">Dashboard</span>
                         <i className="mdi mdi-home menu-icon"/>
-                    </a>
+                    </Link>
                 </li>
                 <li className="nav-item">
                     <Link to="/login" className="nav-link">

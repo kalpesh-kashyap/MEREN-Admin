@@ -9,22 +9,21 @@ class SaveUser extends Component {
                         <h4 className="card-title">Create User</h4>
                         <form className="forms-sample">
                             <div className="form-group">
-                                <label htmlFor="exampleInputName1">Name</label>
-                                <input type="text" className="form-control" id="exampleInputName1" placeholder="Name"/>
+                                <label htmlFor="firstName">First Name</label>
+                                <input type="text" className="form-control" id="firstName" placeholder="First Name"/>
                             </div>
                             <div className="form-group">
-                                <label htmlFor="exampleInputEmail3">Email address</label>
-                                <input type="email" className="form-control" id="exampleInputEmail3"
+                                <label htmlFor="lastName">Last Name</label>
+                                <input type="text" className="form-control" id="lastName" placeholder="Last Name"/>
+                            </div>
+                            <div className="form-group">
+                                <label htmlFor="email">Email address</label>
+                                <input type="email" className="form-control" id="email"
                                        placeholder="Email"/>
                             </div>
                             <div className="form-group">
-                                <label htmlFor="exampleInputPassword4">Password</label>
-                                <input type="password" className="form-control" id="exampleInputPassword4"
-                                       placeholder="Password"/>
-                            </div>
-                            <div className="form-group">
-                                <label htmlFor="exampleSelectGender">Gender</label>
-                                <select className="form-control" id="exampleSelectGender">
+                                <label htmlFor="gender">Gender</label>
+                                <select className="form-control" id="gender">
                                     <option>Male</option>
                                     <option>Female</option>
                                 </select>
@@ -41,13 +40,17 @@ class SaveUser extends Component {
                                 </div>
                             </div>
                             <div className="form-group">
-                                <label htmlFor="exampleInputCity1">City</label>
-                                <input type="text" className="form-control" id="exampleInputCity1"
+                                <label htmlFor="phoneNumber">Phone Number</label>
+                                <input type="text" className="form-control" id="phoneNumber" placeholder="Phone Number"/>
+                            </div>
+                            <div className="form-group">
+                                <label htmlFor="location">City</label>
+                                <input type="text" className="form-control" id="location"
                                        placeholder="Location"/>
                             </div>
                             <div className="form-group">
-                                <label htmlFor="exampleTextarea1">Textarea</label>
-                                <textarea className="form-control" id="exampleTextarea1" rows="4"></textarea>
+                                <label htmlFor="aboutUser">About User</label>
+                                <textarea className="form-control" id="aboutUser" rows="4"/>
                             </div>
                             <button type="submit" className="btn btn-gradient-primary mr-2">Submit</button>
                             <button className="btn btn-light">Cancel</button>

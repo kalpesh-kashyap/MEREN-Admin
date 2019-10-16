@@ -12,7 +12,7 @@ const UsersList = props => {
                                 <h4 className="card-title">Users</h4>
                             </div>
                             <div className="col-md-6 text-right">
-                                <Link to='/user' className="btn btn-gradient-success btn-fw pull-right">Create
+                                <Link to='/user' className="btn btn-gradient-primary btn-fw pull-right">Create
                                     User
                                 </Link>
                             </div>
